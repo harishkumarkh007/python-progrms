@@ -136,28 +136,199 @@
 
 
 
+# def sor(numers):
+#     n = len(numers)
+#     for i in range(n):
+#         for j in range(n-i-1):
+#             if numers[j]>numers[j+1]:
+#                 numers[j],numers[j+1] = numers[j+1],numers[j]
+
+#     return numers
 
 
-def Sorted_List(numbers):
-    a=numbers[0]
-    m=numbers[1]
-    for i  in numbers:
-        if a>numbers[i]:
-            p=a
-            a=m
-            m=p
-        return a,m
+# numers = [9,3,4,1,7]
+
+# resul  = sor(numers)
+# print(resul)
+
+
+# def sor(numers):
+#    numers.sort()
+#    return numers
+
+
+# numers=[6,2,3,9,1,0]
+
+# resul = sor(numers)
+# print(resul)
 
 
 
 
-numbers = [56, 12, 89, 3, 22]
 
-sorted_rr = 
+# def merge_lis(p,q):
+#     p.extend(q)
+#     return p
+
+# list_a = ["Physics", "Chemistry"]
+# list_b = ["Maths", "Biology"]
+
+# resul = merge_lis(list_a,list_b)
+# print(resul)
+
+
+
+# Given a list, extract a “slice” containing the middle three elements.
+
+# Given Input: List: [10, 20, 30, 40, 50, 60, 70]
+
+# Expected Output: Middle Three: [30, 40, 50]
+
+
+
+# def lsi(num):
+#     p = len(num)
+#     middle_index= p//2
+#     nx_chr = num[middle_index + 1]
+#     midd_chr = num[middle_index]
+#     pre_chr = num[middle_index - 1]
+#     return pre_chr,midd_chr,nx_chr
+
+
+# num =  [10, 20, 30, 40, 50, 60, 70]
+
+# prev , middle, next = lsi(num)
+# print("Middle Three:",prev , middle, next)
 
 
 
 
+# Find out how many times a specific value appears in a list.
+
+# Given Input:
+
+# List: [10, 20, 30, 10, 40, 10, 50]
+# Target: 10
+# Expected Output: The number 10 appears 3 times.
+
+
+# def coun_num(numer,target):
+#     count=0
+
+#     for num in numer:
+#         if num==target:
+#             count+=1
+#     return count
+
+
+# numers = [10, 20, 30, 10, 40, 10, 50]
+
+# target=10
+
+# resul = coun_num(numers,target)
+# print(resul)
+
+
+
+
+
+# 18. Delete every instance of a specific value from a list.
+
+# Given Input:
+
+# List: [5, 20, 15, 20, 25, 50, 20]
+# Item to remove: 20
+# Expected Output: Cleaned List: [5, 15, 25, 50]
+
+
+
+
+# def dele_iem(numer,iem):
+#     resul=[]
+#     for num in numer:
+#         if num!=iem:
+#             resul.append(num)
+#     return resul
+
+# numer=[5, 20, 15, 20, 25, 50, 20]
+# iem=20
+# resulll=dele_iem(numer,iem)
+# print(resulll)
+
+
+
+# Take a list of strings that contains empty entries ("") and remove them to keep only the valid text.
+
+
+# Given Input: List: ["Mike", "", "Emma", "Kelly", "", "Brad"]
+
+# Expected Output: Cleaned Names: ['Mike', 'Emma', 'Kelly', 'Brad']
+
+
+
+
+# def remove_iem(list1,target):
+#     resul=[]
+#     for i in list1:
+#         if i!=target:
+#             resul.append(i)
+#     return resul
+
+
+# list1=["Mike", "", "Emma", "Kelly", "", "Brad"]
+# target=""
+
+# resull=remove_iem(list1,target)
+# print(resull)
+
+
+
+
+
+# Remove all duplicate values from a list while keeping only one instance of each element.
+
+# Given Input: List: [10, 20, 10, 30, 40, 40, 20, 50]
+
+# Expected Output: Unique List: [10, 20, 30, 40, 50]
+
+
+
+
+# def remove_duplic(numers):
+#     result=[]
+#     for num in numers:
+#         if num not in result:
+#             result.append(num)
+#     return result
+
+
+# numers = [10, 20, 10, 30, 40, 40, 20, 50]
+# resul = remove_duplic(numers)
+# print(resul)
+
+
+
+
+
+# Given a list of integers, use list comprehension to create a new list that contains only the even numbers from the original list.
+
+# Given Input: List: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Expected Output: Even Numbers: [2, 4, 6, 8, 10]
+
+
+
+# def even_no(List):
+#     result=[]
+#     for num in List:
+#         if num%2==0:
+#             result.append(num)
+#     return result
+
+# List=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# resul =  even_no(List)
+# print(resul) 
 
 
 
